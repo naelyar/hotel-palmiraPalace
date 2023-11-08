@@ -1,0 +1,48 @@
+.header{
+    height: 100px;
+    background-color: aliceblue;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 90;
+}
+.header-in{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 70%;
+    height: 90%;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+nav a{
+    color: rgb(11, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s;
+}
+nav a:hover{
+    border-bottom: 2px solid rgb(11, 0, 0);
+}
+footer{
+    background-color: aliceblue;
+    height: 80px;
+}
+.footer-in{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+
+}
+.footer-in p{
+    color: rgb(11, 0, 0);
+    font-size: 21px;
+    font-weight: 500;
+}

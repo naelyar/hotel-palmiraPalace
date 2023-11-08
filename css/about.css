@@ -1,0 +1,29 @@
+.about{
+    padding: 130px 0;
+}
+.about h2{
+    font-size: 45px;
+    font-family: sans-serif;
+    color: #292828;
+
+}
+.about-in, .about-block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.about-in img{
+    width: 90%;
+    height: 95%;
+}
+.about p{
+    font-size: 22px;
+    line-height: 35px;
+    width: 740px;
+    text-align: center;
+    margin: 15px auto;
+}
+.about-block img{
+    height: 40%;
+}

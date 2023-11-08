@@ -1,0 +1,110 @@
+.home {
+  background: url('../images/orig.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.home-content h1 {
+  font-size: 65px;
+  font-family: sans-serif;
+  color: rgb(215, 51, 51);
+}
+.home-content p {
+  font-size: 20px;
+  color: rgb(246, 9, 9);
+}
+.fact-in {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  justify-content: center;
+  gap: 120px;
+}
+.fact-left h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.fact-right img {
+  width: 90%;
+  height: 95%;
+}
+.facts{
+  padding: 150px 0;
+}
+.facts-in{
+  display: flex;
+  justify-content:center ;
+  gap: 50px;
+}
+.fact1{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 5px solid #CFDEE0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: .5s;
+}
+.fact1:hover{
+  transform: translateY(-30px);
+  box-shadow: 5px 5px 5px 5px #ccdfe1;
+
+}
+.fact1:nth-child(odd){
+  margin-top: 50px;
+}
+.fact1 img{
+  width: 100px;
+  height: 100px;
+}
+.fact1 h3{
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.fact1 p{
+  font-size: 14px;
+  width: 180px;
+  text-align: center;
+}
+.offers{
+  height: 300px;
+}
+.offers h3{
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+.offer {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  transform: translateY(50px);
+}
+.offer-item{
+  width: 250px;
+  height: 70px;
+  border: #1b1c1c solid 3px;
+  padding: 10px 0;
+  transition: .5s ease-in-out;
+}
+.offer-item:hover{
+  background-color: #1b1c1c;
+}
+.offer h4{
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #1b1c1c;
+  text-align: center;
+}
+
+.offer-item:hover h4{
+  color: white;
+}
